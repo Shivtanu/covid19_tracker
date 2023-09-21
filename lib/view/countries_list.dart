@@ -32,19 +32,19 @@ class _CountriesListScreenState extends State<CountriesListScreen> {
                 ),
               ),
             ),
-            Expanded(child: FutureBuilder(
-              builder: (BuildContext context, AsyncSnapshot<List<dynamic>> snapshot) {
-                if(snapshot.hasData){
+//             Expanded(child: FutureBuilder(
+//               builder: (BuildContext context, AsyncSnapshot<List<dynamic>> snapshot) {
+//                 if(snapshot.hasData){
 
-                }
-                else{
-return ListView.builder(itemBuilder:(context, index) {
-                  return Column(
-                    children: [
+//                 }
+//                 else{
+// return ListView.builder(itemBuilder:(context, index) {
+//                   return Column(
+//                     children: [
 
-                    ],
-                  );
-                },
+//                     ],
+//                   );
+//                 },
                 
                   
                 },
